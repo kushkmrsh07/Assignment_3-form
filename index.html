@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form>
+    <fieldset>
+        <legend>Personal Details</legend>
+    <label>Firstname</label>
+    <input type="text" size="15">
+    <br>
+    <br>
+    <label>Middlename:</label>
+    <input type="text" size="15">
+    <br>
+    <br>
+    <label>Lastname:</label>
+    <input type="text" size="15">
+    <br>
+    <br>
+    <label>Course :</label>
+    <select>
+        <option value="Course">Course</option>
+        <option value="BCA">BCA</option>
+        <option value="BSC.IT">Bsc.It</option>
+        <option value="BBA">BBA</option>
+        <option value="B.Tech">B.Tech</option>
+        <option value="MBA">MBA</option>
+        <option value="MCA">MCA</option>
+        <option value="M.Tech">M.Tech</option>
+        <option value="MSC">Msc.It</option>
+    </select>
+    <br>
+    <br>
+    <label>Gender :</label>
+    <br>
+    <input type="radio" name="gender">
+    Male
+     <br>
+    <input type="radio" name="gender">
+    Female
+    <br>
+    <input type="radio" name="gender">
+    Others
+    <br>
+    <br>
+    <label>DOB</label>
+    <input type="datetime-local">
+    <br>
+    <label>Phone :</label>
+    <input type="text" value="+91" size="2" disabled>
+    <input type="tel" size="10" maxlength="10">
+    <br>
+    <br>
+    <label>Address</label>
+    <br>
+    <textarea cols="80" rows="5"></textarea>
+    <br>
+    <br>
+    <label>Email :</label>
+    <input type="email">
+    <br>
+    <br>
+    <br>
+    <label>Password :</label>
+    <input type="password">
+    <br>
+    <br>
+    <br>
+    <label>Re-type password :</label>
+    <input type="password" name="re-password">
+        <br>
+        <br>
+        <input type="checkbox" id="Agree">
+        <label for="Agree"> Agree to terms and conditions</label>
+        <br>
+        <br>
+        <label for="file">Choose File</label>
+        <input type="file" id="file">
+        <br>
+        <br>
+        <label for="colour">Choose Color</label>
+        <input type="color" id="colour">
+        <br>
+        <br>
+        <input type="reset" value="Reset">
+        <input type="button" value="Submit">
+        </form>
+    </fieldset>
+</body>
+</html>
